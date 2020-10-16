@@ -1,0 +1,68 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Selector should render correctly and match to the Snapshot 1`] = `
+<main>
+  <div
+    className="places-map"
+    id="places-map"
+  />
+  <div
+    className="container-selector"
+  >
+    What would you like to eat?
+    <form>
+      <span
+        id="container-Pizza"
+      >
+        <input
+          checked={true}
+          id="Pizza"
+          name="foodOption"
+          onChange={[Function]}
+          type="radio"
+          value="Pizza"
+        />
+        <label
+          htmlFor="Pizza"
+        >
+          Pizza
+        </label>
+      </span>
+      <span
+        id="container-Burger"
+      >
+        <input
+          checked={false}
+          id="Burger"
+          name="foodOption"
+          onChange={[Function]}
+          type="radio"
+          value="Burger"
+        />
+        <label
+          htmlFor="Burger"
+        >
+          Burger
+        </label>
+      </span>
+      <span
+        id="container-Sushi"
+      >
+        <input
+          checked={false}
+          id="Sushi"
+          name="foodOption"
+          onChange={[Function]}
+          type="radio"
+          value="Sushi"
+        />
+        <label
+          htmlFor="Sushi"
+        >
+          Sushi
+        </label>
+      </span>
+    </form>
+  </div>
+</main>
+`;
